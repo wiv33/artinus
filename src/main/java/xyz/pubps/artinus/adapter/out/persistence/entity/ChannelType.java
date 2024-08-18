@@ -1,5 +1,7 @@
 package xyz.pubps.artinus.adapter.out.persistence.entity;
 
-public enum SubscriptionType {
-    
+public enum ChannelType {
+  ALL,
+  SUBSCRIPTION,
+  UNSUBSCRIPTION
 }

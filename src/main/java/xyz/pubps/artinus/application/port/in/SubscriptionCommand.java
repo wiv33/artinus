@@ -1,4 +1,11 @@
 package xyz.pubps.artinus.application.port.in;
 
-public class SubscriptionCommand {
+import xyz.pubps.artinus.adapter.out.persistence.entity.ChannelType;
+
+public record SubscriptionCommand(
+    String phoneNumber,
+    String channelId,
+    ChannelType subscriptionType
+) {
+
 }

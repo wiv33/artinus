@@ -1,4 +1,4 @@
-package com.moin.demomoin.common;
+package xyz.pubps.artinus.common;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;
